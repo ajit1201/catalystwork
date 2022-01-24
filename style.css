@@ -1,0 +1,166 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header{
+          background-color:#44558F;
+          padding: 2% 0%;
+      }
+
+      #geca_building {
+        /* background: #661212 url("files/geca_img.jpeg") center no-repeat; */
+        background-position: center;
+        background-image: linear-gradient(rgb(21 21 21 / 67%), rgba(0, 0, 0, 0.774)), url(files/geca_img.jpeg);
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 30px;
+      }
+      .intro {
+        display: inline-block;
+      }
+
+      #intro_text {
+        font-size: xxx-large;
+        font-weight: bolder;
+        color: white;
+        text-align: center;
+      }
+
+      #intro_buttons {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+      }
+/*button background color*/
+      .button {
+        border: none;
+        display: inline-block;
+        width: 136px;
+        height: 40px;
+        border-radius: 8px;
+        font-weight: bolder;
+        font-size: medium;
+        color: #231c10;
+      }
+
+      #button4{
+          background:#FFE162;
+      }
+      #button3{
+          background:#FF6464;
+      }
+      #button2{
+          background:#91C483;
+      }
+      #button1{
+          background:#EEEEEE;
+      }
+    
+      /* about catalyst code  */
+      #about_catalyst {
+        /* display: flex; */
+        /* align-items: center; */
+
+        background-color: rgb(85, 81, 81);
+      }
+      #about_catalyst > p {
+        text-align: center;
+      }
+
+      #about_content {
+        display: flex;
+        align-items: center;
+        background-color: rgb(226, 153, 153);
+        border-radius: 12px;
+        height: auto;
+        width: 63%;
+        padding: 5%;
+      }
+
+      /* slide card  */
+      .interview_wrapper {
+            display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* padding: 0 4%; */
+    row-gap: 15px;
+    column-gap: 15px;
+
+        }
+        .interview_image {
+            width: 350px
+        }
+
+      /* card css  */
+      #cards {
+        background-color: rgb(120 120 120);
+        height: auto;
+        overflow: none;
+        padding: 4% 14% 6% 14%;
+        row-gap: 5px;
+      }
+      .card_wrapper {
+        display: flex;
+        flex-direction: row;
+        row-gap: 51px;
+        column-gap: 32px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        /* height: 30vh; */
+        padding: 72px 5%;
+        background-color: #1919ff80;
+      }
+      .card {
+        position: relative;
+        margin: 0 0 10px 0 ;
+        width: 170px;
+        height: 170px;
+        display: inline-block;
+        border-radius: 15px;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+      }
+
+      
+  #card1{
+    background-image:url(files/tech_logo.png);
+  }          
+      #card2{
+        background-image: url(files/innovationorrevolution.jfif);
+      }
+      #card3{
+        background-image: url(files/earth.jpg);
+      }
+      #card4{
+        background-image: url(files/writing.png);
+      }
+
+      /* editors div code  */
+      #editorspic_div {
+        padding: 3% 3% 4% 3%;
+        background-color: black;
+        color: blanchedalmond;
+      }
+      span {
+        line-height: 50px;
+      }
+
+      #editorpic_content {
+        padding: 3% 6%;
+        max-width: 700px;
+        margin: 5px;
+        background-color: rgb(94, 92, 90);
+        border-radius: 8px;
+      }
+      .content_wrapper {
+      }
